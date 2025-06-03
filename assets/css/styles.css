@@ -1,0 +1,16 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    background-color: #f5f9f7;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+public Form1()
+{
+    InitializeComponent();
+    this.Text = "Mental Health Project";
+    this.Backround image= assets/css/images/Man sitting on the beach alone: .jpg;
+    this.Font = new Font("Segoe UI", 10);
+}
