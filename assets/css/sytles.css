@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.custom-navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f9f7 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #2c3e50 !important;
+}
+
+.nav-link {
+  color: #2c3e50 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00796b !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #00796b !important;
+}
+
+  /* Set a full-screen background image */
+  body {
+    background-image: assets/images/"Man sitting on the beach alone.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fefefe;
+  }
+  
+ 
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(34, 49, 34, 0.6); /* Dark green overlay */
+    z-index: -1;
+  }
+  
+  /* Main container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    color: #2e5339; /* Deep green text */
+    margin-top: 60px;
+  }
+  
+  /* Header */
+  h1, h2 {
+    color: #3b7a57; /* Soft calming green */
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #7bc47f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5ba369;
+  }
+  
+  /* Links */
+  a {
+    color: #3b7a57;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
